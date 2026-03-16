@@ -2,7 +2,7 @@
 
 G-Hire is a **Multimodal AI Agent** built for the Google AI Studio competition. It acts as an autonomous hiring assistant that understands text, voice, and vision to help you find the best freelancers.
 
-**Category**: **UI Navigator** (Understands screens and performs actions) / **Live Agent** (Real-time interaction).
+**Category**: **Live Agent** (Real-time interaction).
 
 ## Core Requirements Satisfied
 1. **Gemini AI**: Powered by `gemini-3-flash-preview`.
