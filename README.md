@@ -34,7 +34,7 @@ G-Hire is a **Multimodal AI Agent** built for the Google AI Studio competition. 
 This application is designed for Google Cloud Run. 
 - Build: `npm run build`
 - Start: `npm start`
-altenate :
+alternate :
 https://ai.studio/apps/81d953b7-98de-4eae-a7f0-0dba39a2527f?fullscreenApplet=true
 # G-hire-Gemini-powered-ai-hiring-agent
 G-HIRE Ai agent with multimodal system
