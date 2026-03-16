@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Arjun Sharma",
+    "skills": ["React", "Node.js", "TypeScript", "TailwindCSS"],
+    "experience": "5 years",
+    "rating": 4.8,
+    "portfolioUrl": "https://portfolio.example.com/arjun",
+    "availability": "Available",
+    "priceRange": "₹2000 - ₹3500 / hr",
+    "contactEmail": "arjun@example.com"
+  },
+  {
+    "name": "Priya Patel",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+    "experience": "4 years",
+    "rating": 4.9,
+    "portfolioUrl": "https://portfolio.example.com/priya",
+    "availability": "Busy",
+    "priceRange": "₹2500 - ₹4000 / hr",
+    "contactEmail": "priya@example.com"
+  },
+  {
+    "name": "Rahul Verma",
+    "skills": ["React Native", "Firebase", "Redux", "UI/UX"],
+    "experience": "3 years",
+    "rating": 4.7,
+    "portfolioUrl": "https://portfolio.example.com/rahul",
+    "availability": "Available",
+    "priceRange": "₹1500 - ₹2500 / hr",
+    "contactEmail": "rahul@example.com"
+  },
+  {
+    "name": "Ananya Iyer",
+    "skills": ["Machine Learning", "Python", "TensorFlow", "Data Science"],
+    "experience": "6 years",
+    "rating": 5.0,
+    "portfolioUrl": "https://portfolio.example.com/ananya",
+    "availability": "Available",
+    "priceRange": "₹4000 - ₹6000 / hr",
+    "contactEmail": "ananya@example.com"
+  },
+  {
+    "name": "Vikram Singh",
+    "skills": ["Go", "Kubernetes", "AWS", "Microservices"],
+    "experience": "7 years",
+    "rating": 4.9,
+    "portfolioUrl": "https://portfolio.example.com/vikram",
+    "availability": "Available",
+    "priceRange": "₹3500 - ₹5500 / hr",
+    "contactEmail": "vikram@example.com"
+  },
+  {
+    "name": "Sanya Malhotra",
+    "skills": ["Figma", "UI/UX Design", "Adobe XD", "Prototyping"],
+    "experience": "4 years",
+    "rating": 4.8,
+    "portfolioUrl": "https://portfolio.example.com/sanya",
+    "availability": "Available",
+    "priceRange": "₹2000 - ₹3000 / hr",
+    "contactEmail": "sanya@example.com"
+  },
+  {
+    "name": "Karan Johar",
+    "skills": ["PHP", "Laravel", "MySQL", "Vue.js"],
+    "experience": "5 years",
+    "rating": 4.6,
+    "portfolioUrl": "https://portfolio.example.com/karan",
+    "availability": "Available",
+    "priceRange": "₹1500 - ₹2500 / hr",
+    "contactEmail": "karan@example.com"
+  },
+  {
+    "name": "Neha Gupta",
+    "skills": ["Java", "Spring Boot", "Hibernate", "Oracle"],
+    "experience": "6 years",
+    "rating": 4.7,
+    "portfolioUrl": "https://portfolio.example.com/neha",
+    "availability": "Busy",
+    "priceRange": "₹2500 - ₹4500 / hr",
+    "contactEmail": "neha@example.com"
+  },
+  {
+    "name": "Rohan Das",
+    "skills": ["Angular", "C#", ".NET Core", "Azure"],
+    "experience": "5 years",
+    "rating": 4.5,
+    "portfolioUrl": "https://portfolio.example.com/rohan",
+    "availability": "Available",
+    "priceRange": "₹2000 - ₹3500 / hr",
+    "contactEmail": "rohan@example.com"
+  },
+  {
+    "name": "Ishita Roy",
+    "skills": ["React", "Next.js", "GraphQL", "Apollo"],
+    "experience": "3 years",
+    "rating": 4.9,
+    "portfolioUrl": "https://portfolio.example.com/ishita",
+    "availability": "Available",
+    "priceRange": "₹2000 - ₹3000 / hr",
+    "contactEmail": "ishita@example.com"
+  },
+  {
+    "name": "Amitabh Bachchan",
+    "skills": ["Solidity", "Blockchain", "Ethereum", "Web3.js"],
+    "experience": "4 years",
+    "rating": 4.8,
+    "portfolioUrl": "https://portfolio.example.com/amitabh",
+    "availability": "Available",
+    "priceRange": "₹4000 - ₹7000 / hr",
+    "contactEmail": "amitabh@example.com"
+  },
+  {
+    "name": "Deepika Padukone",
+    "skills": ["Ruby on Rails", "PostgreSQL", "Redis", "Heroku"],
+    "experience": "5 years",
+    "rating": 4.7,
+    "portfolioUrl": "https://portfolio.example.com/deepika",
+    "availability": "Available",
+    "priceRange": "₹2500 - ₹4000 / hr",
+    "contactEmail": "deepika@example.com"
+  },
+  {
+    "name": "Ranbir Kapoor",
+    "skills": ["Swift", "iOS Development", "Xcode", "Core Data"],
+    "experience": "4 years",
+    "rating": 4.9,
+    "portfolioUrl": "https://portfolio.example.com/ranbir",
+    "availability": "Busy",
+    "priceRange": "₹3000 - ₹5000 / hr",
+    "contactEmail": "ranbir@example.com"
+  },
+  {
+    "name": "Alia Bhatt",
+    "skills": ["Kotlin", "Android Development", "Jetpack Compose", "Retrofit"],
+    "experience": "3 years",
+    "rating": 4.8,
+    "portfolioUrl": "https://portfolio.example.com/alia",
+    "availability": "Available",
+    "priceRange": "₹2500 - ₹4500 / hr",
+    "contactEmail": "alia@example.com"
+  },
+  {
+    "name": "Shah Rukh Khan",
+    "skills": ["Rust", "WebAssembly", "Performance Optimization", "C++"],
+    "experience": "8 years",
+    "rating": 5.0,
+    "portfolioUrl": "https://portfolio.example.com/srk",
+    "availability": "Available",
+    "priceRange": "₹5000 - ₹10000 / hr",
+    "contactEmail": "srk@example.com"
+  },
+  {
+    "name": "Katrina Kaif",
+    "skills": ["SEO", "Content Marketing", "Google Analytics", "Copywriting"],
+    "experience": "6 years",
+    "rating": 4.7,
+    "portfolioUrl": "https://portfolio.example.com/katrina",
+    "availability": "Available",
+    "priceRange": "₹1500 - ₹3000 / hr",
+    "contactEmail": "katrina@example.com"
+  },
+  {
+    "name": "Hrithik Roshan",
+    "skills": ["Cybersecurity", "Penetration Testing", "Ethical Hacking", "Linux"],
+    "experience": "7 years",
+    "rating": 4.9,
+    "portfolioUrl": "https://portfolio.example.com/hrithik",
+    "availability": "Available",
+    "priceRange": "₹4000 - ₹8000 / hr",
+    "contactEmail": "hrithik@example.com"
+  },
+  {
+    "name": "Kareena Kapoor",
+    "skills": ["Product Management", "Agile", "Scrum", "Jira"],
+    "experience": "8 years",
+    "rating": 4.8,
+    "portfolioUrl": "https://portfolio.example.com/kareena",
+    "availability": "Available",
+    "priceRange": "₹3000 - ₹6000 / hr",
+    "contactEmail": "kareena@example.com"
+  },
+  {
+    "name": "Saif Ali Khan",
+    "skills": ["DevOps", "Terraform", "Jenkins", "Prometheus"],
+    "experience": "6 years",
+    "rating": 4.7,
+    "portfolioUrl": "https://portfolio.example.com/saif",
+    "availability": "Available",
+    "priceRange": "₹3500 - ₹5500 / hr",
+    "contactEmail": "saif@example.com"
+  },
+  {
+    "name": "Varun Dhawan",
+    "skills": ["Flutter", "Dart", "Mobile App Design", "API Integration"],
+    "experience": "3 years",
+    "rating": 4.6,
+    "portfolioUrl": "https://portfolio.example.com/varun",
+    "availability": "Available",
+    "priceRange": "₹1800 - ₹2800 / hr",
+    "contactEmail": "varun@example.com"
+  }
+]

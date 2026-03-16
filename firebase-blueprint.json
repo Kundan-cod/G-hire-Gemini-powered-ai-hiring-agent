@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "A hiring project submitted by a user",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Project title" },
+        "description": { "type": "string", "description": "Detailed project description" },
+        "budget": { "type": "number", "description": "Project budget" },
+        "timeline": { "type": "string", "description": "Project timeline" },
+        "skills": { "type": "array", "items": { "type": "string" }, "description": "Required skills" },
+        "projectType": { "type": "string", "description": "Extracted project type" },
+        "referenceLinks": { "type": "array", "items": { "type": "string" }, "description": "Reference links" },
+        "imageUrl": { "type": "string", "description": "Optional design reference image URL" },
+        "status": { "type": "string", "enum": ["pending", "analyzed", "matching", "completed"], "description": "Current status of the hiring process" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" },
+        "userId": { "type": "string", "description": "UID of the user who submitted the project" }
+      },
+      "required": ["title", "description", "userId", "createdAt"]
+    },
+    "Freelancer": {
+      "title": "Freelancer",
+      "description": "A freelancer profile in the database",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Freelancer name" },
+        "skills": { "type": "array", "items": { "type": "string" }, "description": "Skills list" },
+        "experience": { "type": "string", "description": "Years or level of experience" },
+        "rating": { "type": "number", "description": "Average rating (0-5)" },
+        "portfolioUrl": { "type": "string", "description": "Link to portfolio" },
+        "availability": { "type": "string", "description": "Current availability status" },
+        "priceRange": { "type": "string", "description": "Hourly or project rate range" },
+        "contactEmail": { "type": "string", "description": "Contact email" }
+      },
+      "required": ["name", "skills", "rating", "contactEmail"]
+    },
+    "Response": {
+      "title": "Response",
+      "description": "A simulated outreach response from a freelancer",
+      "type": "object",
+      "properties": {
+        "projectId": { "type": "string", "description": "ID of the project" },
+        "freelancerId": { "type": "string", "description": "ID of the freelancer" },
+        "message": { "type": "string", "description": "Outreach message sent" },
+        "status": { "type": "string", "enum": ["sent", "interested", "declined"], "description": "Response status" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp" }
+      },
+      "required": ["projectId", "freelancerId", "message", "status", "createdAt"]
+    },
+    "Chat": {
+      "title": "Chat",
+      "description": "A chat session with the AI agent",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "UID of the user" },
+        "title": { "type": "string", "description": "Chat topic or summary" },
+        "messages": { 
+          "type": "array", 
+          "items": { 
+            "type": "object",
+            "properties": {
+              "role": { "type": "string", "enum": ["user", "agent"] },
+              "content": { "type": "string" },
+              "timestamp": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        "lastMessageAt": { "type": "string", "format": "date-time" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "title", "messages", "lastMessageAt", "createdAt"]
+    },
+    "Negotiation": {
+      "title": "Negotiation",
+      "description": "A completed AI negotiation history",
+      "type": "object",
+      "properties": {
+        "projectId": { "type": "string" },
+        "projectTitle": { "type": "string" },
+        "userId": { "type": "string", "description": "Client UID" },
+        "freelancerId": { "type": "string", "description": "Freelancer Profile ID" },
+        "freelancerName": { "type": "string" },
+        "freelancerUserId": { "type": "string", "description": "Freelancer UID" },
+        "data": { "type": "object", "description": "Negotiation conversation and final details" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["projectId", "userId", "freelancerId", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/projects/{projectId}": {
+      "schema": "Project",
+      "description": "Collection of hiring projects"
+    },
+    "/freelancers/{freelancerId}": {
+      "schema": "Freelancer",
+      "description": "Collection of available freelancers"
+    },
+    "/responses/{responseId}": {
+      "schema": "Response",
+      "description": "Collection of outreach responses"
+    },
+    "/chats/{chatId}": {
+      "schema": "Chat",
+      "description": "Collection of user chat sessions"
+    },
+    "/negotiations/{negotiationId}": {
+      "schema": "Negotiation",
+      "description": "History of AI-led negotiations"
+    }
+  }
+}

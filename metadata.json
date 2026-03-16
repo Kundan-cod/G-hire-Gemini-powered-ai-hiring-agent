@@ -1,0 +1,9 @@
+{
+  "name": "G-HIRE – Gemini Powered AI Hiring Agent",
+  "description": "An autonomous AI agent that analyzes project requirements, matches freelancers from Firestore, and simulates outreach using Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
