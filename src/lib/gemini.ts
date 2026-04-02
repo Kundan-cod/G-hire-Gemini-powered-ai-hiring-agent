@@ -3,14 +3,11 @@ import { GoogleGenAI, Type } from "@google/genai";
 let aiInstance: GoogleGenAI | null = null;
 
 const getAI = () => {
-  if (!aiInstance) {
-    const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) {
-      throw new Error("GEMINI_API_KEY is not defined. Please ensure it is set in your environment.");
-    }
-    aiInstance = new GoogleGenAI({ apiKey });
+  const apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    throw new Error("API Key is not defined. Please ensure it is selected in the API configuration.");
   }
-  return aiInstance;
+  return new GoogleGenAI({ apiKey });
 };
 
 export const extractRequirements = async (description: string, imageUrl?: string) => {
